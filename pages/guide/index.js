@@ -2,7 +2,7 @@
 
 function GuidePage(){
     return (
-        <h1> Guide page</h1>
+        <h1 className="font-bold  text-center text-white text-xl p-4 m-4"> Under Development</h1>
     )
             
     }
