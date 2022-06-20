@@ -52,6 +52,7 @@ export default function Staking() {
           
               let interestrates =  await stakingContract.interest_rate()
               interestrates = ethers.utils.formatUnits(interestrates._hex,0)
+              console.log(interestrates);
               setinterestrates(interestrates)
               const tx = await signerforstaking.checkstakesdata()
               let amountstaked = tx.total_amount

@@ -63,15 +63,15 @@ function Homepage() {
         </div>
       </div>
       <Top4 />
-      <div className="border border-sky-500 rounded-lg bg-white p-4 m-4">
+      <div className=" text-white p-4 m-4">
         <h1 className="p-2 text-center text-4xl font-bold">Tokenomics</h1>
         <div className="flex justify-evenly text-center items-center p-3">
-          <div className="mini-cards flex flex-col p-2 rounded-xl border-2 border-rose-500 text-lg font-medium text-black">
+          <div className="mini-cards flex flex-col p-2 rounded-xl border-2 border-rose-500 text-lg font-medium">
             <h1>200 million</h1>
             <h1>MANT Tokens</h1>
           </div>
-          <h1 className="text-1xl font-bold  text-black text-center"> $MANT is the native token of MinerAnts. A super-defaltionary and auto liquidity adding token used for MinerAnts blind box opening ,<br/>mining rewards, payment on 3rd party marketplaces connected to MinerAnts</h1>
-          <div className="mini-cards flex flex-col p-2 rounded-xl border-2 border-rose-500 text-lg font-medium  text-black">
+          <h1 className="text-1xl font-bold  text-white text-center"> $MANT is the native token of MinerAnts. A super-defaltionary and auto liquidity adding token used for MinerAnts blind box opening ,<br/>mining rewards, payment on 3rd party marketplaces connected to MinerAnts</h1>
+          <div className="mini-cards flex flex-col p-2 rounded-xl border-2 border-rose-500 text-lg font-medium">
             <h1>10,000</h1>
             <h1>Miner Ants NFTS</h1>
           </div>
