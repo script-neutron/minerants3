@@ -1,0 +1,1 @@
+export const antAddress = '0xC7b25A71FD793F9AB80a9EE384777e1193572273'

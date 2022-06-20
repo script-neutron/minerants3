@@ -1,0 +1,1 @@
+export const buyAddress = '0x35010730700Dd18f44ac53b5eFf96FfB15729470';
