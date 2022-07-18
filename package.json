@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev && postcss ./styles/globals.css -o ./styles/output.css",
+    "dev": "next dev && yarn postcss ./styles/globals.css -o ./styles/output.css",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
