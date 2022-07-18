@@ -45,7 +45,7 @@ export default function Top4() {
           <h2 className="text-3xl font-bold text-white">Super Rare MinerAnts</h2>
           <p className="text-lg font-normal text-white py-8">Top 4 MinerAnts with high Hash pow</p>
         </div>
-        <div className="cards">
+        <div className="text-white grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-4 m-4 justify-evenly text-center items-center p-3">
           {
             data.map((item)=>(
             <Cards 
